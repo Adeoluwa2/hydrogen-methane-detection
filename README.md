@@ -14,7 +14,7 @@ It combines **spectral image analysis**, **deep learning regression**, and **cla
 - Defines target values: `H_ppm` and `Meth_ppm` (hydrogen and methane concentrations).
 
 The dataset (`H2_CH4_dataset.xlsx`) used for model training is too large for GitHub upload (≈220 MB).  
-You can download it from: [Google Drive / Share Link Here]  
+You can download it from: [https://docs.google.com/spreadsheets/d/1MAD4_vJPvMPXEWm724S_9qqCrsekjbU9/edit?usp=sharing&ouid=109755343665344674090&rtpof=true&sd=true]  
 Place it in the project root directory before running the script.
 
 ### 2️⃣ CNN Regression
