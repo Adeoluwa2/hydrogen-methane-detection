@@ -1,10 +1,15 @@
-__pycache__/
-*.ipynb_checkpoints/
+# Ignore datasets and large binaries
+H2_CH4_dataset.xlsx
 *.csv
+*.zip
+*.tar
 *.h5
 *.pkl
-models/
-figures/
-.DS_Store
+*.npz
+
+# Ignore local environments and caches
+__pycache__/
+*.ipynb_checkpoints/
 venv/
-H2_CH4_dataset.xlsx
+.DS_Store
+.env

@@ -13,6 +13,10 @@ It combines **spectral image analysis**, **deep learning regression**, and **cla
 - Scales and reshapes the data into **2D spectral maps (50×90)** for CNN input.
 - Defines target values: `H_ppm` and `Meth_ppm` (hydrogen and methane concentrations).
 
+The dataset (`H2_CH4_dataset.xlsx`) used for model training is too large for GitHub upload (≈220 MB).  
+You can download it from: [Google Drive / Share Link Here]  
+Place it in the project root directory before running the script.
+
 ### 2️⃣ CNN Regression
 - **Goal:** Predict gas concentrations (`H_ppm`, `Meth_ppm`)
 - **Input:** 50×90×1 spectral maps
